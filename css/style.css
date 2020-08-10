@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+@font-face{
+    src: url(../fonts/Orbitron-SemiBold.ttf);
+    font-family: Orbitron;
+}
+
+@font-face{
+    src: url(../fonts/Ubuntu-Regular.ttf);
+    font-family: ubuntu;
+}
+.navbar{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-family: ubuntu;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbar-nav{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    line-height: 40px;
+}
+
+
+
+.banner-part{
+    height: 700px;
+    background:url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:contain;
+   
+  
+}
+.banner{
+    width: 150%;
+    height: 700px;
+    position: relative; 
+}
+
+.b-text{
+    margin-left: 20px;
+}
+
+.banner-text{
+    margin-top: 70px;
+}
+.banner-text h1{
+    font-family: Orbitron;
+    padding-top: 80px;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+.banner-button{
+    width: 180px;
+    height: 90%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    background: #f29705;
+    border: none;
+    color: #fff;
+    margin-top: 50px;
+    font-family: ubuntu;
+}
+
+
+.banner-button:hover{
+    background: #533b00;
+    color: #fff;
+    transition: .5s;
+}
+
+
+.gall-wrap{
+   height: auto;
+}
+
+
+.gallery{
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.gal{
+   
+    text-align: center;
+     margin-top: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gal img{
+    margin:10px 0;
+}
+.gall{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+.gal-header{
+    font-weight: 700;
+    margin-top: 60px;
+    color: #343434;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.product-description{
+        margin-top: 40px;
+}
+
+.details{
+    height:40px;
+    font-size:30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: monospace;
+    margin-top: 50px;
+    color: #343434;
+    
+}
+
+
+
+.footer{
+    margin-top: 100px;
+    height: auto;
+    color: black;
+}
+
+.footer-bar{
+    border-top: 1px dashed #363636;
+}
+.social{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    color: grey;
+    letter-spacing: 10px;
+}
+
+.social a{
+    color:black;
+}
+
+.social a:hover{
+    color: #393939;
+    transition: .4s;
+}
+
+.follow-us{
+    text-transform: uppercase;
+    font-family: Orbitron;
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: black;
+    margin-left: 20%;
+    font-weight: 700;
+   
+}
+
+.blogs-head{
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 700;
+    color: #343434;
+}
+.card-body{
+    height: 300px;
+}
+.card img{
+    padding: 20px;
+}
+
+.card .card-title{
+    color: blue;
+    font-family: ubuntu;
+    font-weight: 500;
+    font-size: 25px;
+}
+.contact{
+    margin-top: 15px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-family: ubuntu;
+    font-size: 18px;
+}
+
+.footer-left{
+    width: 100%;
+    padding-top: 20px;
+    font-family: cursi
+}
+
+
+.footer-left a{
+    text-decoration: none;
+    color: black;
+}
+.tearms{
+    width: 50%;
+    float: left;
+}
+.policy{
+     width: 50%;
+    float: left;
+}
